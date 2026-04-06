@@ -19,7 +19,20 @@ website:
     right:
       - text: "Contact"
         href: contact.qmd
- # Mobile-specific configurations
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    page-layout: full
+    grid:
+      body-width: 900px
+      margin-width: 250px
+    code-link: true
+    smooth-scroll: true
+     # Mobile-specific configurations
     meta:
       viewport: "width=device-width, initial-scale=1.0"
     
