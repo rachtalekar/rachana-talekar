@@ -1,16 +1,55 @@
 ---
 title: <b>Rachana Lalit Talekar, M.P.H., B.D.S.</b>
 ---
-
-<b>Program Manager, Telehealth Institute</b><br> <b> PhD Candidate, Health Behavior, School of Public Health</b><br> <b> Texas A&M University </b>
-
-![](images/unnamed%20(1).jpg){style="float: right; margin-left: 16px; margin-bottom: 8px; " width="270"}
-
-::: {style="text-align: justify; overflow: hidden;"}
-I am a digital health and implementation science researcher with a background in community health, program design, and telehealth innovation. As Research Program Manager, I lead funded research projects, manage research and education initiatives and support interdisciplianary grant writing efforts aimed at delivering scalable, sustainable healthcare solutions in underserved communities. My work bridges technology, research, and community need through integration of user-centered technology and behavioral health strategies to enhance access and outcomes. With prior experience developing open-source digital health curricula for global health programs and directing telehealth platform deployments, I bring both global perspective and local impact to my work. I am also currently pursuing my Ph.D. in Health Education at Texas A&M University, with research focusing on systems science modeling of telehealth utilization patterns in rural communities.
-:::
-
 ```{=html}
+<style>
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 20px;
+}
+
+.profile-image {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-text {
+  flex: 1;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    margin-bottom: 20px;
+    max-width: 250px;
+  }
+  
+  .profile-text {
+    padding: 0 15px;
+  }
+}
+</style>
+
+<div class="profile-container">
+  <img src="images/unnamed (1)-01.jpg" class="profile-image" alt="Profile Picture">
+  
+  <div class="profile-text">
+    I am a digital health and implementation science researcher with a background in community health, program design, and telehealth innovation. As Research Program Manager, I lead funded research projects, manage research and education initiatives and support interdisciplianary grant writing efforts aimed at delivering scalable, sustainable healthcare solutions in underserved communities. My work bridges technology, research, and community need through integration of user-centered technology and behavioral health strategies to enhance access and outcomes. With prior experience developing open-source digital health curricula for global health programs and directing telehealth platform deployments, I bring both global perspective and local impact to my work. I am also currently pursuing my Ph.D. in Health Education at Texas A&M University, with research focusing on systems science modeling of telehealth utilization patterns in rural communities.
+  </div>
+</div>
+
+
 <style>
 .edu-section {
   max-width: 800px;
