@@ -1,0 +1,351 @@
+---
+title: "Teaching Experience"
+page-layout: full
+---
+
+```{=html}
+<style>
+.teach-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.sidebar {
+  position: sticky;
+  top: 20px;
+  align-self: start;
+}
+.sidebar-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  margin-bottom: 12px;
+}
+.sidebar-link {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  border-left: 2px solid transparent;
+}
+.sidebar-link:hover {
+  background: #f5f5f5;
+  color: #111;
+}
+.sidebar-link.active {
+  border-left: 2px solid #185FA5;
+  color: #185FA5;
+  background: #E6F1FB;
+  font-weight: 500;
+}
+.teach-main {}
+.teach-section {
+  margin-bottom: 48px;
+}
+.section-heading {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #185FA5;
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.teach-card {
+  border: 0.5px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  background: #fff;
+}
+.teach-card:hover {
+  border-color: #85B7EB;
+}
+.teach-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.teach-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+  margin: 0;
+  flex: 1;
+}
+.teach-date {
+  font-size: 12px;
+  color: #185FA5;
+  background: #E6F1FB;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.teach-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+.meta-pill {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 0.5px solid #ddd;
+}
+.meta-pill.role     { background: #EEEDFE; color: #534AB7; border-color: #AFA9EC; }
+.meta-pill.course   { background: #E6F1FB; color: #185FA5; border-color: #85B7EB; }
+.meta-pill.location { background: #f5f5f5; color: #555; }
+
+.training-item {
+  display: flex;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 0.5px solid #f0f0f0;
+  align-items: flex-start;
+}
+.training-item:last-child { border-bottom: none; }
+.training-year {
+  font-size: 12px;
+  font-weight: 600;
+  color: #185FA5;
+  background: #E6F1FB;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  min-width: 50px;
+  text-align: center;
+}
+.training-desc {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Academic experience styles */
+.acad-block {
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+.acad-block:last-child { border-bottom: none; }
+.acad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.acad-role {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+  margin: 0;
+}
+.acad-date {
+  font-size: 12px;
+  color: #185FA5;
+  background: #E6F1FB;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.acad-org {
+  font-size: 13px;
+  color: #666;
+  margin: 2px 0 12px;
+}
+.acad-list {
+  margin: 0;
+  padding-left: 18px;
+}
+.acad-list li {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 6px;
+}
+</style>
+
+<div class="teach-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-title">Jump to</div>
+    <a class="sidebar-link active" href="#lectures">Guest Lectures</a>
+    <a class="sidebar-link" href="#projects">Project Lead</a>
+    <a class="sidebar-link" href="#trainings">Trainings</a>
+    <a class="sidebar-link" href="#academic">Academic Experience</a>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="teach-main">
+
+    <!-- GUEST LECTURES -->
+    <div class="teach-section" id="lectures">
+      <div class="section-heading">Guest Lectures</div>
+
+      <div class="teach-card">
+        <div class="teach-header">
+          <p class="teach-title">Systems Thinking and Complexity in Population Health</p>
+          <span class="teach-date">Fall 2025</span>
+        </div>
+        <div class="teach-meta">
+          <span class="meta-pill role">Guest Lecturer</span>
+          <span class="meta-pill course">HLTH 688</span>
+          <span class="meta-pill location">Texas A&M School of Public Health</span>
+        </div>
+      </div>
+
+      <div class="teach-card">
+        <div class="teach-header">
+          <p class="teach-title">Digital Humanities Theory & Practice</p>
+          <span class="teach-date">Fall 2025</span>
+        </div>
+        <div class="teach-meta">
+          <span class="meta-pill role">Guest Lecturer</span>
+          <span class="meta-pill course">DHUM 433 & 601</span>
+          <span class="meta-pill location">Texas A&M University</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT LEAD -->
+    <div class="teach-section" id="projects">
+      <div class="section-heading">Instructor / Project Lead</div>
+
+      <div class="teach-card">
+        <div class="teach-header">
+          <p class="teach-title">An Agent‑Based Model to Test Telehealth Use Behavior Among Behavioral Health Providers</p>
+          <span class="teach-date">Spring 2026</span>
+        </div>
+        <div class="teach-meta">
+          <span class="meta-pill role">Instructor & Project Lead</span>
+          <span class="meta-pill location">Aggie Collaborate, Texas A&M University</span>
+        </div>
+        </div>
+      </div>
+
+      <div class="teach-card">
+        <div class="teach-header">
+          <p class="teach-title">Designing an Agent-Based Model of Telehealth Using NetLogo</p>
+          <span class="teach-date">Fall 2025</span>
+        </div>
+        <div class="teach-meta">
+          <span class="meta-pill role">Instructor & Project Lead</span>
+          <span class="meta-pill location">Aggie Collaborate, Texas A&M University</span>
+        </div>
+      </div>
+    </div>
+    <!-- TRAININGS -->
+    <div class="teach-section" id="trainings">
+      <div class="section-heading">Trainings & Professional Development</div>
+
+      <div class="training-item">
+        <span class="training-year">2025</span>
+        <p class="training-desc">Agent-Based Models for Population Health,<br>Department of Epidemiology, Columbia University Mailman School of Public Health</p>
+      </div>
+      <div class="training-item">
+        <span class="training-year">2025</span>
+        <p class="training-desc">Grant Writing Workshop,<br> Texas A&M Telehealth Institute</p>
+      </div>
+      <div class="training-item">
+        <span class="training-year">2024</span>
+        <p class="training-desc">AnyLogic Training Program, <br> AnyLogic Company</p>
+      </div>
+    </div>
+
+    <!-- ACADEMIC EXPERIENCE -->
+    <div class="teach-section" id="academic">
+      <div class="section-heading">Academic Experience</div>
+
+      <div class="acad-block">
+        <div class="acad-header">
+          <p class="acad-role">Student Consultant</p>
+          <span class="acad-date">Sept – Dec 2019</span>
+        </div>
+        <p class="acad-org">Perinatal-Neonatal Quality Improvement Network (PN-QIN), Boston, MA</p>
+        <ul class="acad-list">
+          <li>Provided best practices and educational materials for training of staff and clinicians to care for pregnant and post-partum women with substance use disorder without discrimination and stigma.</li>
+          <li>Facilitated discussion with leadership to inculcate recommendation reports into management.</li>
+        </ul>
+      </div>
+
+      <div class="acad-block">
+        <div class="acad-header">
+          <p class="acad-role">Student Consultant (Remote)</p>
+          <span class="acad-date">Sept – Dec 2019</span>
+        </div>
+        <p class="acad-org">Promise for Haiti, Haiti</p>
+        <ul class="acad-list">
+          <li>Executed program diagnosis with programmatic interventions for organizational improvement.</li>
+          <li>Led client-consultant meetings using multiple means of communication to develop work modalities with remote partners.</li>
+        </ul>
+      </div>
+
+      <div class="acad-block">
+        <div class="acad-header">
+          <p class="acad-role">Student Consultant (Remote)</p>
+          <span class="acad-date">May – Aug 2019</span>
+        </div>
+        <p class="acad-org">Health Action International, Amsterdam</p>
+        <ul class="acad-list">
+          <li>Created a mobile data collection platform using the CommCare application to monitor household access to insulin and the price of insulin in Tanzania, Peru, and Mali.</li>
+          <li>Delivered user guides for administrators and data collectors and slide decks for clients on the development and use of applications.</li>
+        </ul>
+      </div>
+
+      <div class="acad-block">
+        <div class="acad-header">
+          <p class="acad-role">Dental Intern</p>
+          <span class="acad-date">Sept 2016 – Nov 2017</span>
+        </div>
+        <p class="acad-org">Terna Dental College & Hospital, India</p>
+        <ul class="acad-list">
+          <li>Performed general dental treatment and counseled patients with a history of smoking and chewing tobacco to create awareness and contribute to controlling the prevalence within the community.</li>
+          <li>Managed incoming patient files and communication with recall patients through cross-department coordination among dentists, administrative staff, and patients.</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </main>
+</div>
+
+<script>
+const links = document.querySelectorAll('.sidebar-link');
+const sections = document.querySelectorAll('.teach-section');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    if (window.scrollY >= section.offsetTop - 100) {
+      current = section.getAttribute('id');
+    }
+  });
+  links.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+```

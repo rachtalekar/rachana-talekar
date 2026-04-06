@@ -1,0 +1,143 @@
+---
+title: "Contact"
+page-layout: full
+---
+```{=html}
+<style>
+.contact-layout {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+.contact-intro {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+.contact-card {
+  border: 0.5px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 28px 32px;
+  background: #fff;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  transition: border-color 0.15s;
+}
+.contact-card:hover {
+  border-color: #85B7EB;
+}
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #E6F1FB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.contact-icon svg {
+  width: 20px;
+  height: 20px;
+}
+.contact-info {
+  flex: 1;
+}
+.contact-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  margin: 0 0 3px;
+}
+.contact-value {
+  font-size: 15px;
+  font-weight: 500;
+  color: #185FA5;
+  margin: 0;
+}
+.contact-arrow {
+  font-size: 18px;
+  color: #bbb;
+}
+.divider {
+  border: none;
+  border-top: 0.5px solid #f0f0f0;
+  margin: 2rem 0;
+}
+.contact-note {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.6;
+  text-align: center;
+}
+</style>
+
+<div class="contact-layout">
+
+  <p class="contact-intro">
+    I welcome inquiries related to digital health research, telehealth implementation,
+    academic collaboration, or speaking opportunities. The best way to reach me is by email.
+  </p>
+
+  <a class="contact-card" href="mailto:talekar@tamu.edu">
+    <div class="contact-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <polyline points="2,4 12,13 22,4"/>
+      </svg>
+    </div>
+    <div class="contact-info">
+      <p class="contact-label">Email</p>
+      <p class="contact-value">talekar@tamu.edu</p>
+    </div>
+    <span class="contact-arrow">›</span>
+  </a>
+
+  <a class="contact-card" href="https://www.linkedin.com" target="_blank">
+    <div class="contact-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="4"/>
+        <line x1="8" y1="11" x2="8" y2="17"/>
+        <line x1="8" y1="7" x2="8" y2="8"/>
+        <path d="M12 17v-4a2 2 0 0 1 4 0v4"/>
+        <line x1="12" y1="11" x2="12" y2="17"/>
+      </svg>
+    </div>
+    <div class="contact-info">
+      <p class="contact-label">LinkedIn</p>
+      <p class="contact-value">Connect on LinkedIn</p>
+    </div>
+    <span class="contact-arrow">›</span>
+  </a>
+
+  <a class="contact-card" href="https://telehealth.tamu.edu/index.html" target="_blank">
+    <div class="contact-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#185FA5" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9,22 9,12 15,12 15,22"/>
+      </svg>
+    </div>
+    <div class="contact-info">
+      <p class="contact-label">Affiliation</p>
+      <p class="contact-value">Texas A&M Health Telehealth Institute</p>
+    </div>
+    <span class="contact-arrow">›</span>
+  </a>
+
+  <hr class="divider">
+
+  <p class="contact-note">
+    Based in College Station, Texas &nbsp;·&nbsp; Texas A&M University School of Public Health
+  </p>
+
+</div>
+```

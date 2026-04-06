@@ -1,0 +1,98 @@
+---
+title: <b>Rachana Lalit Talekar, M.P.H., B.D.S.</b>
+---
+
+<b>Program Manager, Telehealth Institute</b><br> <b> PhD Candidate, Health Behavior, School of Public Health</b><br> <b> Texas A&M University </b>
+
+![](images/unnamed%20(1).jpg){style="float: right; margin-left: 16px; margin-bottom: 8px; " width="270"}
+
+::: {style="text-align: justify; overflow: hidden;"}
+I am a digital health and implementation science researcher with a background in community health, program design, and telehealth innovation. As Research Program Manager, I lead funded research projects, manage research and education initiatives and support interdisciplianary grant writing efforts aimed at delivering scalable, sustainable healthcare solutions in underserved communities. My work bridges technology, research, and community need through integration of user-centered technology and behavioral health strategies to enhance access and outcomes. With prior experience developing open-source digital health curricula for global health programs and directing telehealth platform deployments, I bring both global perspective and local impact to my work. I am also currently pursuing my Ph.D. in Health Education at Texas A&M University, with research focusing on systems science modeling of telehealth utilization patterns in rural communities.
+:::
+
+```{=html}
+<style>
+.edu-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.edu-card {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 0.5px solid #e0e0e0;
+}
+.edu-card:last-child {
+  border-bottom: none;
+}
+.edu-year {
+  min-width: 100px;
+  font-size: 13px;
+  color: #666;
+  padding-top: 4px;
+}
+.edu-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+.badge-phd { background: #EEEDFE; color: #534AB7; }
+.badge-mph { background: #E1F5EE; color: #0F6E56; }
+.badge-bds { background: #E6F1FB; color: #185FA5; }
+.edu-degree {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 0 4px;
+}
+.edu-field {
+  font-size: 14px;
+  color: #444;
+  margin: 0 0 4px;
+}
+.edu-institution {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+</style>
+
+<div class="edu-section">
+
+<div class="edu-card">
+  <div class="edu-year">2022 – Present</div>
+  <div>
+    <span class="edu-badge badge-phd">Ph.D. Candidate</span>
+    <p class="edu-degree">Doctor of Philosophy (Ph.D.)</p>
+    <p class="edu-field">Health Education | Health Behavior</p>
+    <p class="edu-institution">Texas A&M University School of Public Health, College Station, TX, USA</p>
+  </div>
+</div>
+
+<div class="edu-card">
+  <div class="edu-year">2020</div>
+  <div>
+    <span class="edu-badge badge-mph">M.P.H.</span>
+    <p class="edu-degree">Master of Public Health (M.P.H.)</p>
+    <p class="edu-field">Program Designing, Implementation and Evaluation</p>
+    <p class="edu-institution">Boston University School of Public Health, Boston, MA, USA</p>
+  </div>
+</div>
+
+<div class="edu-card">
+  <div class="edu-year">2016</div>
+  <div>
+    <span class="edu-badge badge-bds">B.D.S.</span>
+    <p class="edu-degree">Bachelor of Dental Surgery (B.D.S.)</p>
+    <p class="edu-field">Dental Surgery</p>
+    <p class="edu-institution">Terna Dental College, Maharashtra University of Health Sciences, Navi Mumbai, India</p>
+  </div>
+</div>
+
+</div>
+```

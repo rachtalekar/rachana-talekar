@@ -1,0 +1,308 @@
+---
+title: "Research Experience"
+page-layout: full
+---
+
+```{=html}
+<style>
+.res-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.sidebar {
+  position: sticky;
+  top: 20px;
+  align-self: start;
+}
+.sidebar-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  margin-bottom: 12px;
+}
+.sidebar-link {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  border-left: 2px solid transparent;
+}
+.sidebar-link:hover {
+  background: #f5f5f5;
+  color: #111;
+}
+.sidebar-link.active {
+  border-left: 2px solid #0F6E56;
+  color: #0F6E56;
+  background: #E1F5EE;
+  font-weight: 500;
+}
+.res-main {}
+.res-section {
+  margin-bottom: 48px;
+}
+.section-heading {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #0F6E56;
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.grant-card {
+  border: 0.5px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  background: #fff;
+}
+.grant-card:hover {
+  border-color: #9FE1CB;
+}
+.grant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.grant-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #111;
+  margin: 0;
+  flex: 1;
+}
+.grant-years {
+  font-size: 12px;
+  color: #0F6E56;
+  background: #E1F5EE;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.grant-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+.meta-pill {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 0.5px solid #ddd;
+  color: #555;
+}
+.meta-pill.role   { background: #EEEDFE; color: #534AB7; border-color: #AFA9EC; }
+.meta-pill.amount { background: #E6F1FB; color: #185FA5; border-color: #85B7EB; }
+.meta-pill.source { background: #f5f5f5; color: #555; }
+
+.pres-block {
+  margin-bottom: 28px;
+}
+.pres-year-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0F6E56;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+.pres-item {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  padding-left: 14px;
+  border-left: 2px solid #9FE1CB;
+}
+</style>
+
+<div class="res-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-title">Jump to</div>
+    <a class="sidebar-link active" href="#awarded">Awarded Grants</a>
+    <a class="sidebar-link" href="#pending">Pending Grants</a>
+    <a class="sidebar-link" href="#nonfunded">Non-Funded Grants</a>
+    <a class="sidebar-link" href="#presentations">Presentations</a>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="res-main">
+
+    <!-- AWARDED GRANTS -->
+    <div class="res-section" id="awarded">
+      <div class="section-heading">Awarded Grants</div>
+
+      <div class="grant-card">
+        <div class="grant-header">
+          <p class="grant-title">Exploring Adolescents and Care-givers Dyadic Perceptions of Telebehavioral Health</p>
+          <span class="grant-years">2025 – 2027</span>
+        </div>
+        <div class="grant-meta">
+          <span class="meta-pill role">Project Director</span>
+          <span class="meta-pill amount">$474,999.99</span>
+          <span class="meta-pill source">Texas Child Mental Health Care Consortium</span>
+        </div>
+        <p style="font-size:12px; color:#777; margin: 8px 0 0;">PI: Dr. W.R. Garney</p>
+      </div>
+
+      <div class="grant-card">
+        <div class="grant-header">
+          <p class="grant-title">SignalSafe: Enhancing Rural Firefighters Access via Systemic Assessment & Education</p>
+          <span class="grant-years">2025 – 2027</span>
+        </div>
+        <div class="grant-meta">
+          <span class="meta-pill role">Research Coordinator</span>
+          <span class="meta-pill amount">$20,000</span>
+          <span class="meta-pill source">Texas A&M Huffines Institute</span>
+        </div>
+        <p style="font-size:12px; color:#777; margin: 8px 0 0;">PI: Dr. J. Moats</p>
+      </div>
+    </div>
+
+    <!-- PENDING GRANTS -->
+    <div class="res-section" id="pending">
+      <div class="section-heading">Submitted / Pending Grants</div>
+
+      <div class="grant-card">
+        <div class="grant-header">
+          <p class="grant-title">TexasBRAVE: Bringing Rural Access to Vital Exams</p>
+          <span class="grant-years">2026 – 2031</span>
+        </div>
+        <div class="grant-meta">
+          <span class="meta-pill role">Education Coordinator</span>
+          <span class="meta-pill amount">$3,291,493 — Pending Review</span>
+          <span class="meta-pill source">NIH – R01</span>
+        </div>
+        <p style="font-size:12px; color:#777; margin: 8px 0 0;">PI: Dr. J. Moats</p>
+      </div>
+
+      <div class="grant-card">
+        <div class="grant-header">
+          <p class="grant-title">FocusBridge: A Digital Platform for Evidence-Based ADHD Behavioral Interventions</p>
+          <span class="grant-years">2026 – 2029</span>
+        </div>
+        <div class="grant-meta">
+          <span class="meta-pill role">Program Manager</span>
+          <span class="meta-pill amount">$60,000 — Pending Review</span>
+          <span class="meta-pill source">Texas A&M TPT Funding Program</span>
+        </div>
+        <p style="font-size:12px; color:#777; margin: 8px 0 0;">PI: Drs. I. Arevalo, W.R. Garney</p>
+      </div>
+    </div>
+
+    <!-- NON-FUNDED GRANTS -->
+    <div class="res-section" id="nonfunded">
+      <div class="section-heading">Non-Funded Grants</div>
+
+      <div class="grant-card">
+        <div class="grant-header">
+          <p class="grant-title">Project REACH – Remote Evaluation for Autism in Children through Hybrid Models</p>
+          <span class="grant-years">2025 – 2028</span>
+        </div>
+        <div class="grant-meta">
+          <span class="meta-pill role">Program Manager</span>
+          <span class="meta-pill amount">$3,187,476 — Not Funded</span>
+          <span class="meta-pill source">NIH – OTA</span>
+        </div>
+        <p style="font-size:12px; color:#777; margin: 8px 0 0;">PI: Drs. I. Arevalo, W.R. Garney</p>
+      </div>
+
+      <div class="grant-card">
+        <div class="grant-header">
+          <p class="grant-title">Enhancing Colorectal Cancer Screening and Follow-Up through Telehealth-Driven, Multicomponent Interventions</p>
+          <span class="grant-years">2025 – 2030</span>
+        </div>
+        <div class="grant-meta">
+          <span class="meta-pill role">Program Manager</span>
+          <span class="meta-pill amount">$3,070,903 — Not Funded</span>
+          <span class="meta-pill source">Centers for Disease Control and Prevention</span>
+        </div>
+        <p style="font-size:12px; color:#777; margin: 8px 0 0;">PI: Drs. S. Rogers, J. McKnight</p>
+      </div>
+    </div>
+
+    <!-- PRESENTATIONS -->
+    <div class="res-section" id="presentations">
+      <div class="section-heading">Research Presentations</div>
+
+      <div class="pres-block"> 
+        <div class="pres-year-label">2026</div><p class="pres-item"><b>Talekar R,</b> , Kaniyamattam, K., Bose, S., Tran, R., Mirwani, D., Garney, W., Cobb, C., & McCord, C. (2026, June 29th-July 1). An agent‑based model to test telehealth use behavior among behavioral health providers in Texas [Oral presentation]. NetLogo Conference, Chicago, USA.
+          <p class="pres-item">Arevalo, I., <b>Talekar R,</b>  Macareno, B., Garney, W. (2026, August6-8). Assessing LLM Alignment With Expert Coding in Mental Health App Reviews [Poster presentation accepted]. 2026 American Psychological Association Annual Conference, Washington, DC, USA. 
+          
+         <p class="pres-item"> Garney, W., <b>Talekar R,</b>  Saavedra, N., Harris, A., Arevalo, I., Reindel Phillips, K., Cuevas Arney, J., & Garcia, K. (2026, May 12–14). Through two lenses: Exploring dyadic perceptions of telebehavioral health [Poster presentation]. ATA Nexus 2026, Orlando, FL.</p>
+      </div>
+
+      <div class="pres-block">
+        <div class="pres-year-label">2025</div>
+        <p class="pres-item"><b>Talekar R,</b>  Torabi, K., & Garney, W.R. (2025, December 16). Network, nodes, and influence: Mapping the evolution of agent-based modeling in digital health [Poster presentation]. 18th Annual Conference on the Science of Dissemination and Implementation in Health, National Harbor, MD.</p>
+        <p class="pres-item">Sopchak, K., <b>Talekar R,</b>  Martinez, D., & McCord, C. (2025, November 22). Building the future: Comprehensive strategies for behavioral health workforce expansion in an era of increasing demand [Conference session]. Texas Psychological Association Conference, San Antonio, TX.</p>
+        <p class="pres-item">Martinez, D., Terrazas, A., Sopchak, K., <b>Talekar R,</b>  Arevalo, I., et al. (2025, November). Fractured pathways: The silent impact of operational shifts on critical behavioral health training pipeline for limited English proficiency communities [Roundtable]. APHA Annual Meeting and Expo, Washington, DC.</p>
+        <p class="pres-item"><b>Talekar R,</b>  & Xia, Y. (2025, October 16). Meditation, mediated: Integrating technological affordances and the UTAUT model in studying digital mental health applications [Paper presentation]. AoIR 2025: 26th Annual Conference of the Association of Internet Researchers, Niterói, Brazil.</p>
+        <p class="pres-item">Garney, W., Garcia, K., <b>Talekar R,</b>  Kent, S., Reindel, K., Armstrong, T., McCord, C., & Adams, R. (2025, April). An implementation science perspective on primary care providers' telehealth utilization [Oral presentation]. American Telemedicine Association (ATA) Conference, New Orleans, LA.</p>
+      </div>
+
+      <div class="pres-block">
+        <div class="pres-year-label">2024</div>
+        <p class="pres-item">Sopchak, K.,<b>Talekar R,</b/> Swanson, J., McCord, C., & Colson, J. (2024, August). Utilization of generative AI in psychology: Ethical and practical considerations [Poster presentation]. American Psychiatric Association, Seattle, WA.</p>
+        <p class="pres-item"><b>Talekar R,</b>  Garney, W., Sopchak, K., & McCord, C. (2024, May). Optimizing scalability, sustainability, and access improvement in low-resource communities: A telebehavioral program's experience [Oral presentation]. Karolinska Institutet – UNICEF Joint Conference on Global Child and Adolescent Mental Health, Stockholm, Sweden.</p>
+      </div>
+
+      <div class="pres-block">
+        <div class="pres-year-label">2023</div>
+        <p class="pres-item"><b>Talekar R,</b> Garney, W., Sopchak, K., & McCord, C. (2023, November). Implementation and scalability of a telehealth technology platform to improve service delivery and sustainability: A case study [Poster presentation]. APHA Annual Meeting, Atlanta, GA.</p>
+      </div>
+
+      <div class="pres-block">
+        <div class="pres-year-label">2022</div>
+        <p class="pres-item">Sopchak, K., <b>Talekar R,</b> McCord, C., Stickley, M., & Hutchins Lewer, H.S. (2022, November). Increasing student access to mental health care in Texas: A brief intervention model [Poster presentation]. APHA Annual Meeting and Expo, Boston, MA.</p>
+      </div>
+
+      <div class="pres-block">
+        <div class="pres-year-label">2019</div>
+        <p class="pres-item">Madoor, N., & <b>Talekar R,</b> (2019, April). Addressing mental health stigma in South Asian communities [Poster presentation]. 2nd Annual BUMC Health Equity Symposium, Boston, MA.</p>
+      </div>
+
+    </div>
+
+  </main>
+</div>
+
+<script>
+const links = document.querySelectorAll('.sidebar-link');
+const sections = document.querySelectorAll('.res-section');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    if (window.scrollY >= section.offsetTop - 100) {
+      current = section.getAttribute('id');
+    }
+  });
+  links.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+```

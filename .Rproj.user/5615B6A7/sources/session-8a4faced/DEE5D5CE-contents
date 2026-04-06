@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Rachana Talekar"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Experience"
+        href: exp.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Academic"
+        href: teach.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+  
+  

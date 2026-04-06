@@ -1,0 +1,31 @@
+{
+    "id": "27669088",
+    "path": "~/R-website/exp.qmd",
+    "project_path": "exp.qmd",
+    "type": "quarto_markdown",
+    "hash": "2171253823",
+    "contents": "",
+    "dirty": false,
+    "created": 1775445098638.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:0",
+        "cursorPosition": "212,0",
+        "scrollLine": "186"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1775445115,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1775445115257,
+    "read_only": false,
+    "read_only_alternatives": []
+}

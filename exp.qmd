@@ -1,0 +1,212 @@
+---
+title: "Professional Experience"
+page-layout: full
+---
+
+```{=html}
+<style>
+.exp-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.sidebar {
+  position: sticky;
+  top: 20px;
+  align-self: start;
+}
+.sidebar-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  margin-bottom: 12px;
+}
+.sidebar-link {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  border-left: 2px solid transparent;
+  transition: all 0.15s;
+}
+.sidebar-link:hover {
+  background: #f5f5f5;
+  color: #111;
+}
+.sidebar-link.active {
+  border-left: 2px solid #534AB7;
+  color: #534AB7;
+  background: #EEEDFE;
+  font-weight: 500;
+}
+.exp-main {}
+.exp-block {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid #e5e5e5;
+}
+.exp-block:last-child { border-bottom: none; }
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.exp-role {
+  font-size: 17px;
+  font-weight: 500;
+  color: #111;
+  margin: 0;
+}
+.exp-date {
+  font-size: 12px;
+  color: #fff;
+  background: #534AB7;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.exp-org {
+  font-size: 14px;
+  color: #555;
+  margin: 2px 0 14px;
+}
+.exp-sub {
+  font-size: 13px;
+  font-weight: 600;
+  color: #534AB7;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 14px 0 6px;
+}
+.exp-list {
+  margin: 0;
+  padding-left: 18px;
+}
+.exp-list li {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 5px;
+}
+</style>
+
+<div class="exp-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-title"></div>
+    <a class="sidebar-link active" href="#telehealth-institute">Program Manager</a>
+    <a class="sidebar-link" href="#tchatt-iii">Project Coordinator III</a>
+    <a class="sidebar-link" href="#tchatt-i">Project Coordinator I</a>
+    <a class="sidebar-link" href="#pubhealth-post">Editorial Coordinator</a>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="exp-main">
+
+    <div class="exp-block" id="telehealth-institute">
+      <div class="exp-header">
+        <p class="exp-role">Program Manager</p>
+        <span class="exp-date">August 2024 – Present</span>
+      </div>
+      <p class="exp-org">Texas A&M Health Telehealth Institute, College Station, TX</p>
+
+      <div class="exp-sub">Research Program Manager</div>
+      <ul class="exp-list">
+        <li>Support data collection activities by organizing and managing necessary resources and personnel.</li>
+        <li>Manage grant writing processes, including drafting proposals, literature review, and budgetary processes.</li>
+        <li>Plan and assist with Institutional Review Board (IRB) submissions, preparing and submitting all necessary documentation.</li>
+        <li>Liaise with Texas A&M University research services to coordinate efforts and ensure compliance with university policies.</li>
+        <li>Coordinate within project teams and research staff to ensure alignment towards tasks and goals.</li>
+        <li>Prepare detailed budgets and supporting documents to ensure transparent and well-documented financial aspects of projects.</li>
+        <li>Assist in developing strategic plans and goals to support the Research Core, aligning with its mission and objectives.</li>
+      </ul>
+
+      <div class="exp-sub">Education Program Manager</div>
+      <ul class="exp-list">
+        <li>Lead graduate public health practicum experience, including site coordination, student selection, and competency alignment.</li>
+        <li>Serve as preceptor and supervisor for student interns, providing mentorship, feedback, and structured guidance.</li>
+        <li>Facilitate the Telehealth Student Fellows program for multi-disciplinary PhD students.</li>
+        <li>Maintain detailed program documentation including practicum agreements, student evaluations, and competency tracking tools.</li>
+        <li>Foster sustained partnerships across university academic units to develop telehealth curriculum material.</li>
+        <li>Contribute to strategic planning for the Education Core by supporting program growth in telehealth and applied public health practice.</li>
+      </ul>
+    </div>
+
+    <div class="exp-block" id="tchatt-iii">
+      <div class="exp-header">
+        <p class="exp-role">Project Coordinator III (Technology Lead)</p>
+        <span class="exp-date">Mar 2022 – July 2024</span>
+      </div>
+      <p class="exp-org">Texas Child Health Access Through Telemedicine (TCHATT), Texas A&M School of Medicine, College Station, TX</p>
+      <ul class="exp-list">
+        <li>Facilitated the development, design, procurement, installation, and implementation of telehealth services including hardware, software, and associated technology systems.</li>
+        <li>Led multidisciplinary teams across multiple states in the delivery of child mental health services.</li>
+        <li>Assessed program needs related to telehealth technology and clinical services, providing data-driven recommendations and generating detailed reports for stakeholders.</li>
+        <li>Evaluated the efficacy of telehealth platforms and digital interventions to meet the clinical and operational needs of child mental health programs.</li>
+        <li>Coordinated cross-functional efforts to develop and enhance applications, programs, and digital tools that support clinical services.</li>
+        <li>Fostered partnerships with vendors, healthcare providers, and program partners to optimize service delivery and support statewide telehealth initiatives.</li>
+        <li>Interpreted policies, rules, and regulations related to virtual health and telehealth technology.</li>
+      </ul>
+    </div>
+
+    <div class="exp-block" id="tchatt-i">
+      <div class="exp-header">
+        <p class="exp-role">Project Coordinator I (Technology & Logistics) </p>
+        <span class="exp-date">Sept 2020 – Mar 2022</span>
+      </div>
+      <p class="exp-org">Texas Child Health Access Through Telemedicine (TCHATT), Texas A&M School of Medicine, College Station, TX</p>
+      <ul class="exp-list">
+        <li>Coordinated program activities under the Telebehavioral Care program with schools, primary care facilities, and other stakeholders through full implementation.</li>
+        <li>Facilitated communication and collaboration between the clinic and high-level support.</li>
+        <li>Assessed project needs related to communication, referral, management of records, and coordination of services.</li>
+        <li>Assisted with forecasting and progress reporting against milestone and budgetary updates.</li>
+        <li>Ensured compliance with applicable regulations, including HIPAA and FERPA.</li>
+      </ul>
+    </div>
+
+    <div class="exp-block" id="pubhealth-post">
+      <div class="exp-header">
+        <p class="exp-role">Editorial Coordinator</p>
+        <span class="exp-date">Jan 2019 – May 2020</span>
+      </div>
+      <p class="exp-org">Public Health Post, Boston, MA</p>
+      <ul class="exp-list">
+        <li>Authored article excerpts for the website, newsletter, and social media, engaging over 8 million unique users annually.</li>
+        <li>Coordinated with fellows, editors, and marketing and communications coordinators to set production milestones using industry-standard project management tools.</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+
+<script>
+const links = document.querySelectorAll('.sidebar-link');
+const sections = document.querySelectorAll('.exp-block');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    if (window.scrollY >= section.offsetTop - 100) {
+      current = section.getAttribute('id');
+    }
+  });
+  links.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+});
+</script>
+```
