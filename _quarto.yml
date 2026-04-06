@@ -19,10 +19,17 @@ website:
     right:
       - text: "Contact"
         href: contact.qmd
-format:
-  html:
-    theme: journal
-    css: styles.css
-    toc: true
-  
-  
+ # Mobile-specific configurations
+    meta:
+      viewport: "width=device-width, initial-scale=1.0"
+    
+    # Responsive behavior
+    collapse-below: lg
+    
+    # Enhanced readability
+    mainfont: "Arial, sans-serif"
+    monofont: "Courier New, monospace"
+    
+    # Link and interaction improvements
+    link-external-icon: true
+    link-external-newwindow: true
